@@ -1,4 +1,4 @@
-# SSDDeploy 1.0.0
+# SSDDeploy 1.0.1
 
 Instal Windows **langsung ke SSD** lewat enclosure/adapter USB — tanpa flashdisk.
 Image di-apply dengan DISM, bootloader dibuat dengan BCDBoot, lalu SSD dipindah ke dalam
@@ -78,6 +78,11 @@ README.md              dokumen ini
 | SSD terisi tapi tidak boot di PC target | Firmware PC target harus cocok dengan skema: UEFI untuk GPT, Legacy/CSM untuk MBR. |
 
 ## Changelog
+
+### 1.0.1
+- **Fix MBR + Auto Partition**: partisi Windows masih dibuat memakai `-GptType` sehingga gagal dengan
+  `The parameters GptType, IsHidden, and IsDAX cannot be used on an MBR disk`. Sekarang memakai
+  `-MbrType IFS`, konsisten dengan mode Custom. Mode GPT/UEFI tidak terpengaruh.
 
 ### 1.0.0
 - Rilis pertama dengan nama SSDDeploy.

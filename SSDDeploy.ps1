@@ -1,5 +1,5 @@
 ﻿#Requires -Version 5.1
-# SSDDeploy 1.0.0
+# SSDDeploy 1.0.1
 # Install Windows directly to an external SSD using DISM + BCDBoot.
 # IMPORTANT: This tool ERASES the selected target disk.
 
@@ -424,7 +424,12 @@ function Prepare-SSDForPC {
         }
         else {
             Write-Log "Auto Partition: Windows menggunakan seluruh sisa SSD..."
-            $win = New-Partition -DiskNumber $disk.Number -UseMaximumSize -GptType "{EBD0A0A2-B9E5-4433-87C0-68B6B72699C7}" -AssignDriveLetter
+            if ($useMbr) {
+                $win = New-Partition -DiskNumber $disk.Number -UseMaximumSize -MbrType IFS -AssignDriveLetter
+            }
+            else {
+                $win = New-Partition -DiskNumber $disk.Number -UseMaximumSize -GptType "{EBD0A0A2-B9E5-4433-87C0-68B6B72699C7}" -AssignDriveLetter
+            }
             Format-Volume -Partition $win -FileSystem NTFS -NewFileSystemLabel "Windows" -Confirm:$false | Out-Null
         }
 
@@ -576,7 +581,7 @@ function Prepare-SSDForPC {
 [xml]$xaml = @'
 <Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="SSDDeploy 1.0.0"
+        Title="SSDDeploy 1.0.1"
         Height="700" Width="980"
         MinHeight="520" MinWidth="860"
         WindowStartupLocation="CenterScreen"
@@ -637,7 +642,7 @@ function Prepare-SSDForPC {
                 </StackPanel>
                 <Border Grid.Column="1" Background="#142743" BorderBrush="#2E73BA" BorderThickness="1"
                         CornerRadius="10" Padding="13,7" VerticalAlignment="Center">
-                    <TextBlock Text="1.0.0" FontWeight="Bold" Foreground="#7FC0FF"/>
+                    <TextBlock Text="1.0.1" FontWeight="Bold" Foreground="#7FC0FF"/>
                 </Border>
             </Grid>
         </Border>
@@ -959,7 +964,7 @@ $window.Top  = $script:WorkArea.Top  + [Math]::Max(0, [Math]::Round(($script:Wor
 Write-Log "Window: $([int]$window.Width)x$([int]$window.Height) (work area $([int]$script:WorkArea.Width)x$([int]$script:WorkArea.Height))"
 Refresh-Disks
 Update-PartitionPreview
-Write-Log "SSDDeploy 1.0.0 ready."
+Write-Log "SSDDeploy 1.0.1 ready."
 Write-Log "Pilih ISO, pilih SSD target, pilih edition, lalu klik INSTALL."
 
 $window.ShowDialog() | Out-Null

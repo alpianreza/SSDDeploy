@@ -1,5 +1,5 @@
 @echo off
-title SSDDeploy 1.0.0
+title SSDDeploy 1.0.1
 cd /d "%~dp0"
 net session >nul 2>&1
 if %errorlevel% neq 0 (
