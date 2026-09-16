@@ -89,7 +89,12 @@ README.md              dokumen ini
 
 ## Lisensi
 
-Belum ditentukan. Tetapkan sebelum publikasi (mis. MIT, GPL-3.0, atau lainnya).
+[MIT](LICENSE) - bebas dipakai, dimodifikasi, dan didistribusikan, asalkan notis
+hak cipta serta izin ini disertakan.
+
+Karena tool ini **menghapus seluruh isi disk target**, perhatikan klausul
+"AS IS" pada lisensi: perangkat lunak ini disediakan tanpa jaminan apa pun,
+dan risiko pemakaian sepenuhnya ada pada pengguna.
 
 ## Kredit
 
