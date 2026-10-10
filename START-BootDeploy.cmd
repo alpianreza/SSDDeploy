@@ -1,1 +1,10 @@
-QGVjaG8gb2ZmCnRpdGxlIEJvb3REZXBsb3kgMi4wLjAKY2QgL2QgIiV+ZHAwIgpuZXQgc2Vzc2lvbiA+bnVsIDI+JjEKaWYgJWVycm9ybGV2ZWwlIG5lcSAwICgKICBwb3dlcnNoZWxsIC1Ob1Byb2ZpbGUgLUNvbW1hbmQgIlN0YXJ0LVByb2Nlc3MgJyV+ZjAnIC1WZXJiIFJ1bkFzIgogIGV4aXQgL2IKKQpwb3dlcnNoZWxsLmV4ZSAtTm9Qcm9maWxlIC1FeGVjdXRpb25Qb2xpY3kgQnlwYXNzIC1GaWxlICIlfmRwMEJvb3REZXBsb3kucHMxIgpwYXVzZQo=
+@echo off
+title BootDeploy 2.0.0
+cd /d "%~dp0"
+net session >nul 2>&1
+if %errorlevel% neq 0 (
+  powershell -NoProfile -Command "Start-Process '%~f0' -Verb RunAs"
+  exit /b
+)
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0BootDeploy.ps1"
+pause

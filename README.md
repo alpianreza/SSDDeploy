@@ -1,1 +1,72 @@
-IyBCb290RGVwbG95IDIuMC4wCgpJbnN0YWwgV2luZG93cyAqKmxhbmdzdW5nIGtlIFNTRCAvIEhERCoqIGxld2F0IGVuY2xvc3VyZS9hZGFwdGVyIFVTQiDigJQgdGFucGEgZmxhc2hkaXNrLgpJbWFnZSBkaS1hcHBseSBkZW5nYW4gRElTTSwgYm9vdGxvYWRlciBkaWJ1YXQgZGVuZ2FuIEJDREJvb3QsIGxhbHUgZGlzayBkaXBpbmRhaCBrZSBkYWxhbQpQQy9sYXB0b3AgdGFyZ2V0IGRhbiBmaXJzdCBib290IChPT0JFKSBiZXJqYWxhbiBkaSBoYXJkd2FyZSB0YXJnZXQuCgo+ICoqUGVyaW5nYXRhbiBrZXJhczoqKiB0b29sIGluaSAqKm1lbmdoYXB1cyBTRUxVUlVIIERBVEEqKiBwYWRhIGRpc2sgdGFyZ2V0IHlhbmcgZGlwaWxpaC4KCiMjIEZpdHVyCgotICoqRHVhIHNrZW1hIGRpc2sqKiDigJQgR1BUL1VFRkkgZGFuIE1CUi9MZWdhY3kgQklPUyAoK1VFRkktQ1NNKSwgZGlwaWxpaCBkYXJpIFVJLgotICoqV2luZG93cyBFZGl0aW9uIHNlbGVjdG9yKiog4oCUIGRhZnRhciBlZGl0aW9uIGRpYmFjYSBvdG9tYXRpcyBkYXJpIGBpbnN0YWxsLndpbWAgLyBgaW5zdGFsbC5lc2RgLgotICoqTW9kZSBwYXJ0aXNpKiog4oCUIEF1dG8gKFdpbmRvd3MgbWVuZ2lzaSBzZWx1cnVoIGRpc2spIGF0YXUgQ3VzdG9tICh0ZW50dWthbiB1a3VyYW4gcGFydGlzaSBXaW5kb3dzICsgcGFydGlzaSBEQVRBIHRlcnBpc2FoKS4KLSAqKk9wc2kgV2luZG93cyAxMSoqIOKAlCBieXBhc3MgT09CRSBqYXJpbmdhbiAvIGphbHVyIGFrdW4gbG9rYWwuCi0gKipHdWFyZCBrZWFtYW5hbiBkaXNrKiog4oCUIGRpc2sgc2lzdGVtIG90b21hdGlzIGRpbGluZHVuZ2k7IGlkZW50aXRhcyBkaXNrIChzZXJpYWwgKyB1a3VyYW4pIGRpdmVyaWZpa2FzaSB1bGFuZyB0ZXBhdCBzZWJlbHVtIHBlbmdoYXB1c2FuLgotICoqVUkgbWVueWVzdWFpa2FuIGxheWFyKiog4oCUIHVrdXJhbiB3aW5kb3cgbWVuZ2lrdXRpIHdvcmsgYXJlYSwgYW1hbiBkaSBsYXlhciAxMzY2eDc2OC4KLSAqKlVJIGdlbGFwIG1vZGVybiAoV1BGKSoqIGRlbmdhbiBha3NlbiBjeWFuLCBmb250IFNlZ29lIFVJLCBkYW4gbG9nIHJlYWwtdGltZSAoQ2FzY2FkaWEgTW9uby9Db25zb2xhcykuCgojIyBJbnN0YWxhc2kKCioqQ2FyYSAxIOKAlCBJbnN0YWxsZXIgKGRpc2FyYW5rYW4pOioqCjEuIEJ1a2EgYGluc3RhbGxlci9Cb290RGVwbG95Lmlzc2AgZGVuZ2FuIFtJbm5vIFNldHVwIDZdKGh0dHBzOi8vanJzb2Z0d2FyZS5vcmcvaXNpbmZvLnBocCksIGxhbHUgQ29tcGlsZSAoQ3RybCtGOSkuCjIuIEphbGFua2FuIGBCb290RGVwbG95LTIuMC4wLVNldHVwLmV4ZWAgeWFuZyBkaWhhc2lsa2FuLgozLiBCb290RGVwbG95IHRlcnBhc2FuZyBkaSBQcm9ncmFtIEZpbGVzIGRlbmdhbiBzaG9ydGN1dCBTdGFydCBNZW51IChkYW4gRGVza3RvcCwgb3BzaW9uYWwpLgoKKipDYXJhIDIg4oCUIFBvcnRhYmxlOioqCkphbGFua2FuIGBTVEFSVC1Cb290RGVwbG95LmNtZGAgbGFuZ3N1bmcgKG90b21hdGlzIG1lbWludGEgaGFrIEFkbWluaXN0cmF0b3IpLgoKIyMgS2VidXR1aGFuCgotIFdpbmRvd3MgMTAgLyAxMSAoeDY0KSB1bnR1ayBtZW5qYWxhbmthbiB0b29sLgotICoqUG93ZXJTaGVsbCA1LjEqKiAoc3VkYWggdGVyc2VkaWEgZGkgV2luZG93cyAxMC8xMSkuCi0gKipIYWsgQWRtaW5pc3RyYXRvcioqIOKAlCBsYXVuY2hlciBtZW1pbnRhIGVsZXZhc2kgb3RvbWF0aXMuCi0gU1NEL0hERCB0YXJnZXQgbWluaW1hbCAqKjIwIEdCKiosIHRlcnNhbWJ1bmcgbGV3YXQgVVNCL2VuY2xvc3VyZS9hZGFwdGVyLgotIEZpbGUgKipJU08gV2luZG93cyoqIChXaW5kb3dzIDEwIGF0YXUgMTEpLgoKIyMgQ2FyYSBwYWthaQoKMS4gU2FtYnVuZ2thbiBkaXNrIHRhcmdldCBsZXdhdCBlbmNsb3N1cmUvYWRhcHRlciBVU0IuCjIuIEphbGFua2FuICoqYFNUQVJULUJvb3REZXBsb3kuY21kYCoqLCBsYWx1IHNldHVqdWkgcHJvbXB0IFVBQy4KMy4gUGlsaWggZmlsZSBJU08gV2luZG93cy4KNC4gUGlsaWggZGlzayB0YXJnZXQgKGtsaWsgKipSRUZSRVNIKioga2FsYXUgYmFydSBkaWNvbG9rKS4KNS4gUGlsaWggZWRpdGlvbiBXaW5kb3dzLgo2LiBQaWxpaCBza2VtYSBwYXJ0aXNpOiAqKkdQVCoqIGF0YXUgKipNQlIqKiAobGloYXQgdGFiZWwgZGkgYmF3YWgpLgo3LiBQaWxpaCBtb2RlIHBhcnRpc2k6IEF1dG8gYXRhdSBDdXN0b20uCjguIEtsaWsgKipTVEFSVCoqIGRhbiBrb25maXJtYXNpIGJhaHdhIGRpc2sgdGFyZ2V0IHN1ZGFoIGJlbmFyLgo5LiBUdW5nZ3Ugc2FtcGFpIHNlbGVzYWkg4oCUIEFwcGx5LUltYWdlIGFkYWxhaCB0YWhhcCBwYWxpbmcgbGFtYS4KMTAuICoqU2h1dGRvd24gUEMqKiwgbGVwYXMgZGlzayBkYXJpIGVuY2xvc3VyZSwgbGFsdSBwYXNhbmcgKipzZWNhcmEgaW50ZXJuYWwqKiBrZSBQQyB0YXJnZXQuCjExLiBCb290IFBDIHRhcmdldCBkYXJpIGRpc2sgdGVyc2VidXQuIFdpbmRvd3MgbWVuamFsYW5rYW4gZmlyc3QgYm9vdC9PT0JFIGRpIGhhcmR3YXJlIHRhcmdldC4KCiMjIFNrZW1hIHBhcnRpc2kKCnwgfCBHUFQgKFVFRkkpIHwgTUJSIChMZWdhY3kgQklPUykgfAp8LS0tfC0tLXwtLS18CnwgRmlybXdhcmUgUEMgdGFyZ2V0IHwgVUVGSSAoQ1NNIG9mZikgfCBMZWdhY3kgLyBDU00gb24gfAp8IFBhcnRpc2kgfCBFRkkgMjYwIE1CIChGQVQzMikgKyBNU1IgMTYgTUIgKyBOVEZTIFdpbmRvd3MgKCsgREFUQSkgfCBOVEZTIFdpbmRvd3MgKHByaW1hcnksICoqYWN0aXZlKiopICgrIERBVEEpIHwKfCBCb290bG9hZGVyIHwgYGJjZGJvb3QgL2YgVUVGSWAga2UgYEVGSTpcRUZJXE1pY3Jvc29mdFxCb290XEJDRGAgfCBgYmNkYm9vdCAvZiBCSU9TYCBrZSBgV2luZG93czpcQm9vdFxCQ0RgIHwKfCBCYXRhcyB8IHNhbmdhdCBiZXNhciAoR1BUKSB8IG1ha3MgKioyIFRCKiogcGVyIHBhcnRpc2ksIG1ha3MgNCBwcmltYXJ5IHwKCkJlbHVtIHlha2luPyBQQyBrZWx1YXJhbiAyMDEzIGtlIGF0YXMgaGFtcGlyIHNlbGFsdSBVRUZJLCBqYWRpIHBha2FpICoqR1BUKiouCgojIyBDYXRhdGFuIHBlbnRpbmcKCi0gKipKYW5nYW4gYm9vdCBXaW5kb3dzIGRhcmkgZGlzayBzZWxhbWEgZGlzayBtYXNpaCB0ZXJzYW1idW5nIGxld2F0IFVTQi4qKiBMZXBhcyBkdWx1LgotIFRvb2wgaW5pICoqYnVrYW4gV2luZG93cyBUbyBHbyoqIOKAlCB0aWRhayBhZGEgYFBvcnRhYmxlT3BlcmF0aW5nU3lzdGVtYCwgU0FOIHBvbGljeSwgYXRhdSB0d2VhayBVU0JTVE9SLiBEaXNrbnlhIGRpcGluZGFoIGtlIGRhbGFtIFBDLCBidWthbiBkaXBha2FpIHBvcnRhYmVsLgotIFRpZGFrIGFkYSBgdW5hdHRlbmQueG1sYCBwZXJtYW5lbiAoc2VuZ2FqYSBkaWhpbmRhcmkgYWdhciBzcGVjaWFsaXplL09PQkUgdGlkYWsgcnVzYWsgZGkgc2ViYWdpYW4gYnVpbGQpLgotIEthcmVuYSBtZW1ha2FpIERJU00gQXBwbHktSW1hZ2UgbGFuZ3N1bmcsIGNvbXBhdGliaWxpdHkgY2hlY2sgV2luZG93cyBTZXR1cCAoVFBNL0NQVS9SQU0vU2VjdXJlIEJvb3QpIHRpZGFrIGRpamFsYW5rYW4uCgojIyBSaXdheWF0IHZlcnNpCgotICoqMi4wLjAqKiDigJQgUmVicmFuZCBkYXJpIFNTRERlcGxveSBtZW5qYWRpIEJvb3REZXBsb3kgKGR1a3VuZ2FuIFNTRCArIEhERCksIHJlZGVzaWduIFVJICh0ZW1hIGdlbGFwIG1vZGVybiwgYWtzZW4gY3lhbiwgZm9udCBTZWdvZSBVSSksIGluc3RhbGxlciBJbm5vIFNldHVwLgotICoqMS4wLjEqKiDigJQgUmlsaXMgYXdhbCBzZWJhZ2FpIFNTRERlcGxveS4K
+# BootDeploy 2.0.0
+
+Instal Windows **langsung ke SSD / HDD** lewat enclosure/adapter USB — tanpa flashdisk.
+Image di-apply dengan DISM, bootloader dibuat dengan BCDBoot, lalu disk dipindah ke dalam
+PC/laptop target dan first boot (OOBE) berjalan di hardware target.
+
+> **Peringatan keras:** tool ini **menghapus SELURUH DATA** pada disk target yang dipilih.
+
+## Fitur
+
+- **Dua skema disk** — GPT/UEFI dan MBR/Legacy BIOS (+UEFI-CSM), dipilih dari UI.
+- **Windows Edition selector** — daftar edition dibaca otomatis dari `install.wim` / `install.esd`.
+- **Mode partisi** — Auto (Windows mengisi seluruh disk) atau Custom (tentukan ukuran partisi Windows + partisi DATA terpisah).
+- **Opsi Windows 11** — bypass OOBE jaringan / jalur akun lokal.
+- **Guard keamanan disk** — disk sistem otomatis dilindungi; identitas disk (serial + ukuran) diverifikasi ulang tepat sebelum penghapusan.
+- **UI menyesuaikan layar** — ukuran window mengikuti work area, aman di layar 1366x768.
+- **UI gelap modern (WPF)** dengan aksen cyan, font Segoe UI, dan log real-time (Cascadia Mono/Consolas).
+
+## Instalasi
+
+**Cara 1 — Installer (disarankan):**
+1. Buka `installer/BootDeploy.iss` dengan [Inno Setup 6](https://jrsoftware.org/isinfo.php), lalu Compile (Ctrl+F9).
+2. Jalankan `BootDeploy-2.0.0-Setup.exe` yang dihasilkan.
+3. BootDeploy terpasang di Program Files dengan shortcut Start Menu (dan Desktop, opsional).
+
+**Cara 2 — Portable:**
+Jalankan `START-BootDeploy.cmd` langsung (otomatis meminta hak Administrator).
+
+## Kebutuhan
+
+- Windows 10 / 11 (x64) untuk menjalankan tool.
+- **PowerShell 5.1** (sudah tersedia di Windows 10/11).
+- **Hak Administrator** — launcher meminta elevasi otomatis.
+- SSD/HDD target minimal **20 GB**, tersambung lewat USB/enclosure/adapter.
+- File **ISO Windows** (Windows 10 atau 11).
+
+## Cara pakai
+
+1. Sambungkan disk target lewat enclosure/adapter USB.
+2. Jalankan **`START-BootDeploy.cmd`**, lalu setujui prompt UAC.
+3. Pilih file ISO Windows.
+4. Pilih disk target (klik **REFRESH** kalau baru dicolok).
+5. Pilih edition Windows.
+6. Pilih skema partisi: **GPT** atau **MBR** (lihat tabel di bawah).
+7. Pilih mode partisi: Auto atau Custom.
+8. Klik **START** dan konfirmasi bahwa disk target sudah benar.
+9. Tunggu sampai selesai — Apply-Image adalah tahap paling lama.
+10. **Shutdown PC**, lepas disk dari enclosure, lalu pasang **secara internal** ke PC target.
+11. Boot PC target dari disk tersebut. Windows menjalankan first boot/OOBE di hardware target.
+
+## Skema partisi
+
+| | GPT (UEFI) | MBR (Legacy BIOS) |
+|---|---|---|
+| Firmware PC target | UEFI (CSM off) | Legacy / CSM on |
+| Partisi | EFI 260 MB (FAT32) + MSR 16 MB + NTFS Windows (+ DATA) | NTFS Windows (primary, **active**) (+ DATA) |
+| Bootloader | `bcdboot /f UEFI` ke `EFI:\EFI\Microsoft\Boot\BCD` | `bcdboot /f BIOS` ke `Windows:\Boot\BCD` |
+| Batas | sangat besar (GPT) | maks **2 TB** per partisi, maks 4 primary |
+
+Belum yakin? PC keluaran 2013 ke atas hampir selalu UEFI, jadi pakai **GPT**.
+
+## Catatan penting
+
+- **Jangan boot Windows dari disk selama disk masih tersambung lewat USB.** Lepas dulu.
+- Tool ini **bukan Windows To Go** — tidak ada `PortableOperatingSystem`, SAN policy, atau tweak USBSTOR. Disknya dipindah ke dalam PC, bukan dipakai portabel.
+- Tidak ada `unattend.xml` permanen (sengaja dihindari agar specialize/OOBE tidak rusak di sebagian build).
+- Karena memakai DISM Apply-Image langsung, compatibility check Windows Setup (TPM/CPU/RAM/Secure Boot) tidak dijalankan.
+
+## Riwayat versi
+
+- **2.0.0** — Rebrand dari SSDDeploy menjadi BootDeploy (dukungan SSD + HDD), redesign UI (tema gelap modern, aksen cyan, font Segoe UI), installer Inno Setup.
+- **1.0.1** — Rilis awal sebagai SSDDeploy.

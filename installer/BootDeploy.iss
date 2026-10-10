@@ -1,1 +1,45 @@
-OyBCb290RGVwbG95IDIuMC4wIOKAlCBJbm5vIFNldHVwIGluc3RhbGxlciBzY3JpcHQKOyBCdWlsZDogYnVrYSBmaWxlIGluaSBkZW5nYW4gSW5ubyBTZXR1cCA2LCBsYWx1IENvbXBpbGUgKEN0cmwrRjkpLgo7IEhhc2lsOiBCb290RGVwbG95LTIuMC4wLVNldHVwLmV4ZQoKI2RlZmluZSBNeUFwcE5hbWUgIkJvb3REZXBsb3kiCiNkZWZpbmUgTXlBcHBWZXJzaW9uICIyLjAuMCIKI2RlZmluZSBNeUFwcFB1Ymxpc2hlciAiUkVaQSIKI2RlZmluZSBNeUFwcFVSTCAiaHR0cHM6Ly9naXRodWIuY29tL2FscGlhbnJlemEvU1NERGVwbG95IgoKW1NldHVwXQpBcHBJZD17ezgyYWYzZTNhLTIzYTUtNDQ2Yy1iMDk2LWM5YmUwNWRlZjEzYX0KQXBwTmFtZT17I015QXBwTmFtZX0KQXBwVmVyc2lvbj17I015QXBwVmVyc2lvbn0KQXBwUHVibGlzaGVyPXsjTXlBcHBQdWJsaXNoZXJ9CkFwcFB1Ymxpc2hlclVSTD17I015QXBwVVJMfQpBcHBTdXBwb3J0VVJMPXsjTXlBcHBVUkx9CkRlZmF1bHREaXJOYW1lPXthdXRvcGZ9XHsjTXlBcHBOYW1lfQpEZWZhdWx0R3JvdXBOYW1lPXsjTXlBcHBOYW1lfQpQcml2aWxlZ2VzUmVxdWlyZWQ9YWRtaW4KUHJpdmlsZWdlc1JlcXVpcmVkT3ZlcnJpZGVzQWxsb3dlZD1kaWFsb2cKT3V0cHV0RGlyPS5cCk91dHB1dEJhc2VGaWxlbmFtZT1Cb290RGVwbG95LXsjTXlBcHBWZXJzaW9ufS1TZXR1cApDb21wcmVzc2lvbj1sem1hMgpTb2xpZENvbXByZXNzaW9uPXllcwpXaXphcmRTdHlsZT1tb2Rlcm4KRGlzYWJsZVByb2dyYW1Hcm91cFBhZ2U9eWVzClVuaW5zdGFsbERpc3BsYXlOYW1lPXsjTXlBcHBOYW1lfSB7I015QXBwVmVyc2lvbn0KCltMYW5ndWFnZXNdCk5hbWU6ICJlbmdsaXNoIjsgTWVzc2FnZXNGaWxlOiAiY29tcGlsZXI6RGVmYXVsdC5pc2wiCgpbRmlsZXNdClNvdXJjZTogIi4uXEJvb3REZXBsb3kucHMxIjsgRGVzdERpcjogInthcHB9IjsgRmxhZ3M6IGlnbm9yZXZlcnNpb24KU291cmNlOiAiLi5cU1RBUlQtQm9vdERlcGxveS5jbWQiOyBEZXN0RGlyOiAie2FwcH0iOyBGbGFnczogaWdub3JldmVyc2lvbgpTb3VyY2U6ICIuLlxSRUFETUUubWQiOyBEZXN0RGlyOiAie2FwcH0iOyBGbGFnczogaWdub3JldmVyc2lvbiBpc3JlYWRtZQoKW0ljb25zXQpOYW1lOiAie2F1dG9wcm9ncmFtc31ceyNNeUFwcE5hbWV9IjsgRmlsZW5hbWU6ICJ7YXBwfVxTVEFSVC1Cb290RGVwbG95LmNtZCI7IENvbW1lbnQ6ICJKYWxhbmthbiBCb290RGVwbG95IHNlYmFnYWkgQWRtaW5pc3RyYXRvciIKTmFtZTogInthdXRvZGVza3RvcH1ceyNNeUFwcE5hbWV9IjsgRmlsZW5hbWU6ICJ7YXBwfVxTVEFSVC1Cb290RGVwbG95LmNtZCI7IENvbW1lbnQ6ICJKYWxhbmthbiBCb290RGVwbG95IHNlYmFnYWkgQWRtaW5pc3RyYXRvciI7IFRhc2tzOiBkZXNrdG9waWNvbgoKW1Rhc2tzXQpOYW1lOiAiZGVza3RvcGljb24iOyBEZXNjcmlwdGlvbjogIkJ1YXQgc2hvcnRjdXQgZGkgRGVza3RvcCI7IEdyb3VwRGVzY3JpcHRpb246ICJTaG9ydGN1dCB0YW1iYWhhbjoiCgpbUnVuXQpGaWxlbmFtZTogInthcHB9XFNUQVJULUJvb3REZXBsb3kuY21kIjsgRGVzY3JpcHRpb246ICJKYWxhbmthbiB7I015QXBwTmFtZX0gc2VrYXJhbmciOyBGbGFnczogbm93YWl0IHBvc3RpbnN0YWxsIHNoZWxsZXhlYyBza2lwaWZzaWxlbnQK
+; BootDeploy 2.0.0 — Inno Setup installer script
+; Build: buka file ini dengan Inno Setup 6, lalu Compile (Ctrl+F9).
+; Hasil: BootDeploy-2.0.0-Setup.exe
+
+#define MyAppName "BootDeploy"
+#define MyAppVersion "2.0.0"
+#define MyAppPublisher "REZA"
+#define MyAppURL "https://github.com/alpianreza/SSDDeploy"
+
+[Setup]
+AppId={{82af3e3a-23a5-446c-b096-c9be05def13a}
+AppName={#MyAppName}
+AppVersion={#MyAppVersion}
+AppPublisher={#MyAppPublisher}
+AppPublisherURL={#MyAppURL}
+AppSupportURL={#MyAppURL}
+DefaultDirName={autopf}\{#MyAppName}
+DefaultGroupName={#MyAppName}
+PrivilegesRequired=admin
+PrivilegesRequiredOverridesAllowed=dialog
+OutputDir=.\
+OutputBaseFilename=BootDeploy-{#MyAppVersion}-Setup
+Compression=lzma2
+SolidCompression=yes
+WizardStyle=modern
+DisableProgramGroupPage=yes
+UninstallDisplayName={#MyAppName} {#MyAppVersion}
+
+[Languages]
+Name: "english"; MessagesFile: "compiler:Default.isl"
+
+[Files]
+Source: "..\BootDeploy.ps1"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\START-BootDeploy.cmd"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\README.md"; DestDir: "{app}"; Flags: ignoreversion isreadme
+
+[Icons]
+Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\START-BootDeploy.cmd"; Comment: "Jalankan BootDeploy sebagai Administrator"
+Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\START-BootDeploy.cmd"; Comment: "Jalankan BootDeploy sebagai Administrator"; Tasks: desktopicon
+
+[Tasks]
+Name: "desktopicon"; Description: "Buat shortcut di Desktop"; GroupDescription: "Shortcut tambahan:"
+
+[Run]
+Filename: "{app}\START-BootDeploy.cmd"; Description: "Jalankan {#MyAppName} sekarang"; Flags: nowait postinstall shellexec skipifsilent
